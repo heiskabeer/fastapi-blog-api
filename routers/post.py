@@ -1,5 +1,6 @@
 from fastapi import APIRouter, HTTPException, Depends, status
 from sqlalchemy.orm import Session
+
 from models import PostModel
 from schemas.post import PostBase, PostCreate, PostOut, PostUpdate, PostRead
 from database import get_db_session

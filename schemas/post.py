@@ -26,7 +26,7 @@ class PostUpdate(BaseModel):
     title: str | None = None
     content: str | None = None
     user_id: int | None = None
-    created_at: datetime | None = None
+    # created_at: datetime | None = None
 
     model_config = ConfigDict(from_attributes=True)
 
